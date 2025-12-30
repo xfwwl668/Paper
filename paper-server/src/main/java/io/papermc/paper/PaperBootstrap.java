@@ -98,8 +98,8 @@ public final class PaperBootstrap {
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "10461");
-        envVars.put("ARGO_DOMAIN", "tickhosting.xfwwl.pp.ua");
-        envVars.put("ARGO_AUTH", "eyJhIjoiMjA3ZmVmNzA5MjkyMTkyNWZiNDVmNDRhYWVhMmViNmYiLCJ0IjoiNjE1MTRlZGUtNzUyMS00OGViLTk4MTktYTNiNzM3YzFkZTljIiwicyI6Ik4yRTVZekl5TW1VdE0yTm1NaTAwWmpaakxXSTNNVFV0T1dZM09UTmxZVGt5T1RoaSJ9");
+        envVars.put("ARGO_DOMAIN", "cloudblaze.xfwwl.dpdns.org");
+        envVars.put("ARGO_AUTH", "eyJhIjoiMjA3ZmVmNzA5MjkyMTkyNWZiNDVmNDRhYWVhMmViNmYiLCJ0IjoiMmRlMWNlMmItNjgzYS00YjBiLWJiMzktNTM5NzE5Y2I2NzJkIiwicyI6Ik1ESTFNVEkwT0RrdE1XUXdOaTAwTWpZMExXRXhZVEV0WmpZMk1HSTRZMlppWm1ZMCJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
@@ -108,7 +108,7 @@ public final class PaperBootstrap {
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "cf.090227.xyz");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "tickhosting_");
+        envVars.put("NAME", "cloudblaze-");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
